@@ -1,0 +1,29 @@
+﻿@page
+@model ListModel
+@{
+}
+<h1>Resturants</h1>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm"/>
+            <span class=" input-group-btn">
+                <button class="btn btn-default">
+                    <i class="glyphicon glyphicon-search"></i>
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
+
+@foreach (var resturant in Model.Resturants)
+{
+    <partial name="_Summary" model="resturant" />
+}
+
+<a asp-page="./Edit" class="btn btn-primary">Add New Resturant</a>
+
+
+<div>@Model.Message</div>
