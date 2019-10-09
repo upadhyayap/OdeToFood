@@ -7,8 +7,18 @@
 <h2>Client Resturants</h2>
 
 @section scripts {
-    <script>
 
+    <environment include="Development">
+        <link rel="stylesheet" type="text/css" href="/DataTables/datatables.css" />
+        <script type="text/javascript" charset="utf8" src="/DataTables/datatables.js"></script>
+    </environment>
+
+    <environment exclude="Development">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css" />
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    </environment>
+
+    <script>
         $(function () {
             $.ajax("/api/resturants")
                 .then(function (response) {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {}
+    "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {}
   },
   "projects": {
-    "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
+    "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
+        "projectUniqueName": "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
         "projectName": "OdeToFood.Core",
-        "projectPath": "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
+        "projectPath": "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
         "packagesPath": "C:\\Users\\anupadh\\.nuget\\packages\\",
-        "outputPath": "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Core\\obj\\",
+        "outputPath": "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -51,27 +51,21 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
-    "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+    "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+        "projectUniqueName": "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
         "projectName": "OdeToFood.Data",
-        "projectPath": "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+        "projectPath": "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
         "packagesPath": "C:\\Users\\anupadh\\.nuget\\packages\\",
-        "outputPath": "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Data\\obj\\",
+        "outputPath": "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -92,8 +86,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
-                "projectPath": "C:\\learning\\dotnet\\OdeToFood\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj"
+              "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
+                "projectPath": "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj"
               }
             }
           }
@@ -127,16 +121,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
