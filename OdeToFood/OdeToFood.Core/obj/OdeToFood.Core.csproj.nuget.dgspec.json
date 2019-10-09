@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github\\dotnet\\OdeToFood.Core\\OdeToFood.Core.csproj": {}
+    "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {}
   },
   "projects": {
-    "D:\\github\\dotnet\\OdeToFood.Core\\OdeToFood.Core.csproj": {
+    "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github\\dotnet\\OdeToFood.Core\\OdeToFood.Core.csproj",
+        "projectUniqueName": "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
         "projectName": "OdeToFood.Core",
-        "projectPath": "D:\\github\\dotnet\\OdeToFood.Core\\OdeToFood.Core.csproj",
+        "projectPath": "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\OdeToFood.Core.csproj",
         "packagesPath": "C:\\Users\\anupadh\\.nuget\\packages\\",
-        "outputPath": "D:\\github\\dotnet\\OdeToFood.Core\\obj\\",
+        "outputPath": "D:\\github\\dotnet\\OdeToFood\\OdeToFood.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
